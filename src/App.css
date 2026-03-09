@@ -1,0 +1,25 @@
+body{
+  margin:0;
+  font-family:Arial;
+}
+
+.container{
+  text-align:center;
+  padding:40px;
+}
+
+section{
+  margin:40px 0;
+}
+
+@media (max-width:768px){
+
+.container{
+padding:20px;
+}
+
+h1{
+font-size:28px;
+}
+
+}

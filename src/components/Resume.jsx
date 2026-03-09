@@ -1,0 +1,23 @@
+// function Resume() {
+//   return (
+//     <section>
+//       <h2>Resume</h2>
+//       <a href="/resume.pdf" download>Download Resume</a>
+//     </section>
+//   );
+// }
+
+// export default Resume;
+
+function Resume() {
+  return (
+    <div>
+      <h2>My Resume</h2>
+      <a href="/resume.pdf" download>
+        Download Resume
+      </a>
+    </div>
+  );
+}
+
+export default Resume;
